@@ -1,0 +1,25 @@
+Project Name: Password/wordlist generator
+Project Member: Minh Durbin
+Programming language: Python
+
+This program is similar to Crunch in which it will generate all possible permutations of an input string. 
+This program has will also output the results to a text file. The program will contain 4 options. The first option is the help option.
+It will explain to the user information about the brute force methods and their inputs. The second is Normal Brute Force. 
+In this mode the user will enter a string and the program will find all possible permutations of it. If string inputs contain
+duplicate characters, the program will dynamically delete any duplicate results, print them on to the console, and write them to a textfile. 
+The third option is Custom Brute Force. In this mode, the user will enter a string, a custom string, and placement of custom string and the program will find all possible permutations of it.
+A custom string can be placed in front or back of a permutation string. For example if the user wanted to place the string '123' in front of 
+each permutation, the custom string input will be '123' and placement input will be 'f'. If string inputs contain duplicate characters, 
+the program will dynamically delete any duplicate results, print them on to the console, and write them to a textfile. 
+The fourth option is exit in which the program will exit.
+
+A good-use case for this program is in brute-force attacks. This program will generate all possible combinations
+and permutations of the provided characters/numbers. Professionals in cybersecurity can use this program to 
+test login systems and servers to see if a maximum number of password attempts will be needed or simply test
+current maximum number of attempts for their system. After doing some research the user may have to shorten the length of
+the input string due to the factorial growth of the algorithmn and the limit of the hard drive and CPU. Future
+feature of the program may include encrypting each generated password using Caesar cipher and/or having a fourth
+input that will receive a specified pattern that can either be in front or at the end of each generated password.
+For example, the user can enter '123' and 'b' in which all permutations of the generated passwords/strings will
+contain 123 at the end.
+

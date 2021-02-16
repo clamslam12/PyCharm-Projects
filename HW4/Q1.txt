@@ -1,0 +1,9 @@
+1) To merge k sorted sublist into a single sorted list, this algorithms uses min heap. For this it uses sList, a list to store all of the sorted elements. While each k sorted sublists
+are not empty, and while starting at the beginning of each sublists, add each element from each sublists to the heap. The heap now contains k = 100 elements, each from the k(100) 
+sorted sublists. Then heapify to find the smallest of the 100 elements. Since the smallest will be at the root, append the smallest to sList, delete the root, add the next element
+from the list in which the smallest resides to the heap, and heapify to find the smallest. For example, if the smallest was in sublist2[0], then add the element sublist2[1] to the heap. 
+This continues until all of the k sorted sublists are empty, in which we know that all n*k elements are added to the heap.
+
+2) In this algorithm, we take each element from each sublists and add to the heap. The heap contains at most k elements, and we add k elements to the heap n times. This means that we add
+ a total of n*k elements to the heap. For each time we delete the root from the heap, this takes the same amount of operations as adding, so worst case for deleting is O(nlogk). Since
+we will be adding all n*k elements to the heap as well as deleting n*k elements from the heap, this algorithm takes O(2nlogk) = O(nlogk).

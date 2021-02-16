@@ -1,0 +1,22 @@
+1) Read the following 2 introductory tutorials and have a good grasp on their contents. Say "Yes" if you did.
+Answer: Yes.
+
+2) Read or watch other sources for web scrawling available on the web/YouTube and list at least two of those web sites including YouTube videos with a your own review of them
+Websites.
+
+https://python.gotrained.com/beautifulsoup-extracting-urls/
+Review
+The site is appealing, that makes it easy to follow its contents. The author was straight forward and everything is explained with use of working examples.
+
+https://hackersandslackers.com/scraping-urls-with-beautifulsoup/
+Review.
+Explanation is fantastic and simple. Simple language have been used. Examples used are working fine and full of comments. Best place for a beginner since everything has been simplified.
+https://www.scrapehero.com/a-beginners-guide-to-web-scraping-part-2-build-a-scraper-for-reddit/
+Review:
+This site actually is one of the best since it has explained everything from python installation to using the libraries for web scrawling. Everything is explained with use of examples 
+which can be run in our machines after the necessary libraries have been used. It’s simple to navigate and also appealing.
+
+YouTube Video
+https://www.youtube.com/watch?v=87Gx3U0BDlo
+This is a 35 minutes long video but full of useful content. Web scrawling using Beautiful soup library have been explained in a step by step format.
+It’s easy to follow and the simple examples used are easy to understand.

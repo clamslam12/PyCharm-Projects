@@ -1,0 +1,5 @@
+By using a bit vector, we can represent keys less than n by a string of n bits as V[0...n-1] in which each position that bit 1 occupies corresponds
+to a key in the set S. If the set contains no element with a key k, than the value is bit 0 such that A[k] = 0. We can store the set {2,4,6,10,16}
+in a bit vector of length 20 with key values of 001010100010000010000. For searching as in bitmap-search(V,K), this is O(1) because if V[k] != 0
+return k, else just return Nil. For insertion as in bitmap-insert(V,x), this is O(1) because we can just put V[x] = 1. For deleting as in
+bitmap-delete(V,x), this is O(1) because we can just put V[x] = 0.

@@ -1,0 +1,1 @@
+I decided the threshold at 6000 because the collisions start decreasing with increasing bin indices after index 6000 approximately.

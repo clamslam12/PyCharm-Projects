@@ -1,0 +1,4 @@
+To implement a direct address table in which the keys of stored elements do not need to be distinct and the elements can have satellite data, we can 
+have each key mapped to a doubly linked list, assuming that fetching an element should return the satellite data of all stored elements. For insertion,
+this appends the element to the list in O(1) time. For deletion, this removes the element in linked list in O(1) time in which the element contains
+pointers to the previous and next element. For search, this returns the first element or the first node in a linked list in O(1) time.

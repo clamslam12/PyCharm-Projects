@@ -1,0 +1,21 @@
+                        UnsortedSLL  SortedSLL  UnsortedDLL  SortedDLL
+Search(L,K)             O(n)          O(n)       O(n)          O(n)
+Insert(L,x)             O(1)          O(n)       O(1)          O(n)
+Delete(L,x)             O(n)          O(n)       O(1)          O(1)
+Successor(L,x)          O(n)          O(1)       O(n)          O(1)
+Predecessor(L,x)        O(n)          O(n)       O(n)          O(1)
+Minimum(L)              O(n)          O(1)       O(n)          O(1)
+Maximum(L)              O(n)          O(n)       O(n)          O(n)
+
+
+Insert in Unsorted Singly Linked List is O(1) because the order does not matter so we can just insert at the front. Insert(L,x) in an Unsorted
+Doubly Linked List is O(1) because the order does not matter so we can just insert at the front or tail in constant time. Delete in an unsorted 
+doubly linked list and sorted doubly linked list is O(1) because you can start at the head node or tail node due to having a previous pointer for 
+each node. So you're not limited to only the head as in singly linked list. In the worst case you can delete the last element in constant time. Finding
+Successor in sorted singly linked list and sorted doubly linked list is O(1) because you're guaranteed a successor due to all of the nodes being in 
+sorted order. So you can just find the successor by just looking at the next node. Finding Predecessor in sorted doubly linked list is O(1) because 
+you can start at the tail node in the worst case where you want to find the prdecessor of the last node. This means you can just visit the tail node 
+and look at its previous pointer in constant time. Finding Minimum in sorted singly linked list and sorted doubly linked list is O(1) because the 
+lowest is always the first node due to all of the nodes being in sorted order. So you can just visit the head node and look at its next pointer in 
+constant time.
+
